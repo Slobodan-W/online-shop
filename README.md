@@ -21,7 +21,7 @@ This is a simple e-commerce website created using HTML, CSS, and JavaScript. It 
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
 
 ## Feedback
-If you have any feeback,Plese reach me out at nikhilrb13@gmail.com
+If you have any feedback,Plese reach me out.
 
 ## Authors
 [Nikhil Borse](https://github.com/00123nikhil)
