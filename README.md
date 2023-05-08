@@ -20,5 +20,11 @@ This is a simple e-commerce website created using HTML, CSS, and JavaScript. It 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
 
+## Feedback
+If you have any feeback,Plese reach me out at nikhilrb13@gmail.com
+
+## Authors
+[Nikhil Borse](https://github.com/00123nikhil)
+
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT LICENSE](LICENSE) .
