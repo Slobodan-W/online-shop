@@ -16,6 +16,11 @@ This is a simple e-commerce website created using HTML, CSS, and JavaScript. It 
 - User input validation
 - Error handling
 
+## getting started
+- Clone the repository to your local machine.
+- git clone https://github.com/your-username/project-name.git
+- Open the project directory in your code editor of choice.
+- Open the index.html file in your web browser.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
