@@ -600,6 +600,18 @@ footer .copyright {
   margin-right: 10px;
 }
 
+#prodetails .single-pro-details input:focus {
+  outline: none;
+}
+
+#prodetails .single-pro-details button {
+  background-color: #088178;
+  color: white;
+}
+
+#prodetails .single-pro-details span{
+  line-height: 25px;
+}
 /* --- blog page --- */
 
 /* --- media Queries start --- */

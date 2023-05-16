@@ -37,19 +37,19 @@
 
             <div class="small-img-group">
                 <div class="small-img-col">
-                    <img src="./img/products/f1.jpg" width="100%" id="mainImg" alt="">
+                    <img src="./img/products/f1.jpg" width="100%" class="small-img" alt="">
                 </div>
 
                 <div class="small-img-col">
-                    <img src="./img/products/f1.jpg" width="100%" id="mainImg" alt="">
+                    <img src="./img/products/f2.jpg" width="100%" class="small-img" alt="">
                 </div>
 
                 <div class="small-img-col">
-                    <img src="./img/products/f1.jpg" width="100%" id="mainImg" alt="">
+                    <img src="./img/products/f3.jpg" width="100%" class="small-img" alt="">
                 </div>
 
                 <div class="small-img-col">
-                    <img src="./img/products/f1.jpg" width="100%" id="mainImg" alt="">
+                    <img src="./img/products/f4.jpg" width="100%" class="small-img" alt="">
                 </div>
             </div>
         </div>
@@ -68,17 +68,86 @@
             </select>
 
             <input type="number" value="1">
-            <button>Add to Cart</button>
+            <button class="normal">Add to Cart</button>
             <h4>Product Details</h4>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi tempora quam repellendus officiis.
                 Quisquam tenetur perspiciatis, veniam consectetur impedit accusamus totam esse ad? Cum temporibus
                 quibusdam alias minima odio.</span>
         </div>
+    </section>
 
-        <!-- collaborator - Suraj - Start video from 23:00 min 
-        
-        -->
+    <section id="product" class="section-p1">
+        <h2>Feature Products</h2>
+        <p>Summer Collection New modern Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="./img/products/n1.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronat T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
 
+            <div class="pro">
+                <img src="./img/products/n2.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronat T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="./img/products/n3.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronat T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="./img/products/n4.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronat T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
     </section>
 
     <section id="newsletter" class="section-p1 section-m1">
@@ -166,6 +235,24 @@
         </div>
     </footer>
 
+    <script>
+        var mainImg = document.getElementById('mainImg');
+        var smallImg = document.getElementsByClassName('small-img')
+
+        smallImg[0].onclick = function () {
+            mainImg.src = smallImg[0].src
+        }
+        smallImg[1].onclick = function () {
+            mainImg.src = smallImg[1].src
+        }
+        smallImg[2].onclick = function () {
+            mainImg.src = smallImg[2].src
+        }
+        smallImg[3].onclick = function () {
+            mainImg.src = smallImg[3].src
+        }
+
+    </script>
 
     <!-- javascript script added -->
     <script src="Script.js"></script>
