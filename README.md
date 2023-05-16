@@ -34,8 +34,5 @@ This is a simple e-commerce website created using HTML, CSS, and JavaScript. It 
 ## Feedback
 If you have any feedback,Plese reach me out.
 
-## Authors
-[Nikhil Borse](https://github.com/00123nikhil)
-
 ## License
 This project is licensed under the [MIT LICENSE](LICENSE) .
