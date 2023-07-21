@@ -837,6 +837,10 @@ footer .copyright {
   color: #000;
 }
 
+.abbr {
+  text-decoration: none;
+}
+
 /* --- Cart page --- */
 #cart {
   overflow-x: auto;
